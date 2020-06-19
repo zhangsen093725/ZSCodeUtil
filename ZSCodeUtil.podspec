@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZSCodeUtil'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '生成码、扫描码'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     支持条形码、二维码
                        DESC
 
-  s.homepage         = 'https://github.com/zhangsen/ZSCodeUtil'
+  s.homepage         = 'https://github.com/zhangsen093725/ZSCodeUtil'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangsen' => 'joshzhang@yntengyun.com' }
-  s.source           = { :git => 'https://github.com/zhangsen/ZSCodeUtil.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhangsen093725/ZSCodeUtil.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

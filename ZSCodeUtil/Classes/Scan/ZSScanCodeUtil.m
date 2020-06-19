@@ -222,8 +222,6 @@ AVCaptureVideoDataOutputSampleBufferDelegate>
 }
 
 - (void)dealloc {
-    
-    NSLog(@"TYScanCodeUtil dealloc");
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [_preview removeObserver:self forKeyPath:@"frame"];
 }
@@ -299,7 +297,7 @@ AVCaptureVideoDataOutputSampleBufferDelegate>
     
     AVCaptureDevice *device = [ZSScanCodeUtil zs_activeDevice];
     
-    BOOL isDark = brightness <= 0;
+    BOOL isDark = brightness <= -2;
     
     if ([_delegate respondsToSelector:@selector(zs_scanBrightness:)])
     {

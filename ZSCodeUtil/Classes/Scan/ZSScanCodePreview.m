@@ -28,9 +28,4 @@
 
 - (void)zs_stopScanAnimation {}
 
-- (void)dealloc {
-    
-    NSLog(@"TYScanCodePreview dealloc");
-}
-
 @end
