@@ -1,0 +1,6 @@
+framework module Pods_ZSCodeUtil_Tests {
+  umbrella header "Pods-ZSCodeUtil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

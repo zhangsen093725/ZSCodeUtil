@@ -1,0 +1,6 @@
+framework module Pods_ZSCodeUtil_Example {
+  umbrella header "Pods-ZSCodeUtil_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

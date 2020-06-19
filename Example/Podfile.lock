@@ -1,0 +1,16 @@
+PODS:
+  - ZSCodeUtil (0.1.0)
+
+DEPENDENCIES:
+  - ZSCodeUtil (from `../`)
+
+EXTERNAL SOURCES:
+  ZSCodeUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZSCodeUtil: 028a9e66328b700b4dc7f7311ffd02b699b070b2
+
+PODFILE CHECKSUM: 874c858ddb309df4838f7b076e5b7aea9984cbae
+
+COCOAPODS: 1.9.3

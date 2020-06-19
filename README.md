@@ -1,29 +1,38 @@
 # ZSCodeUtil
 
-[![CI Status](https://img.shields.io/travis/zhangsen/ZSCodeUtil.svg?style=flat)](https://travis-ci.org/zhangsen/ZSCodeUtil)
-[![Version](https://img.shields.io/cocoapods/v/ZSCodeUtil.svg?style=flat)](https://cocoapods.org/pods/ZSCodeUtil)
-[![License](https://img.shields.io/cocoapods/l/ZSCodeUtil.svg?style=flat)](https://cocoapods.org/pods/ZSCodeUtil)
-[![Platform](https://img.shields.io/cocoapods/p/ZSCodeUtil.svg?style=flat)](https://cocoapods.org/pods/ZSCodeUtil)
+## Author
 
-## Example
+Josh, 376019018@qq.com
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Desc
 
-## Requirements
+1. 二维码、条形码基础组件
+2. 支持通过图片识别码
+3. 扫描支持自动检测距离放大
+4. 扫描支持自动检测亮度打开手电筒
+5. 生成支持添加logo
+6. 生成支持彩色
+
+## Features
+
 
 ## Installation
 
-ZSCodeUtil is available through [CocoaPods](https://cocoapods.org). To install
+TYPush is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZSCodeUtil'
+pod 'ZSCode'
 ```
+## 版本日志
 
-## Author
+### 0.1.0
 
-zhangsen, joshzhang@yntengyun.com
+1. ZSGenerateCodeUtil 生成码的工具类
+2. ZSGenerateCodeUtil+QR 二维码生成分类
+3. ZSGenerateCodeUtil+Bar 条形码生成分类
+4. ZSGenerateCodeLogo 二维码添加logo的配置
 
-## License
-
-ZSCodeUtil is available under the MIT license. See the LICENSE file for more info.
+5. ZSScanCodePreview 预览视图的基类
+6. ZSScanCodeRectPreview 默认的矩形视图
+7. ZSScanCodeUtil 扫描码的工具类
