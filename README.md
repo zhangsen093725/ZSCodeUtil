@@ -18,7 +18,7 @@ Josh, 376019018@qq.com
 
 ## Installation
 
-TYPush is available through [CocoaPods](https://cocoapods.org). To install
+ZSCodeUtil is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby

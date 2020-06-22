@@ -1,6 +1,6 @@
 //
 //  ZSScanCodeUtil.m
-//  Pods-TYCode_Example
+//  Pods-ZSCodeUtil_Example
 //
 //  Created by Josh on 2020/6/18.
 //
@@ -191,7 +191,7 @@ AVCaptureVideoDataOutputSampleBufferDelegate>
         }
         else if (self.isEnableDebug)
         {
-            NSLog(@"TYScanCodeUtil switch torch error: %@", error);
+            NSLog(@"ZSScanCodeUtil switch torch error: %@", error);
         }
     }
 }
@@ -216,7 +216,7 @@ AVCaptureVideoDataOutputSampleBufferDelegate>
         }
         else if (self.isEnableDebug)
         {
-            NSLog(@"TYScanCodeUtil zoom factor error: %@", error);
+            NSLog(@"ZSScanCodeUtil zoom factor error: %@", error);
         }
     }
 }

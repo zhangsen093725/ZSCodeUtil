@@ -1,6 +1,6 @@
 //
 //  ZSScanCodeRectPreview.m
-//  Pods-TYCode_Example
+//  Pods-ZSCodeUtil_Example
 //
 //  Created by Josh on 2020/6/18.
 //
